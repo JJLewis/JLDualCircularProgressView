@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "JLDualCircularProgressView"
   s.version      = "1.0"
-  s.summary      = "A short description of JLDualCircularProgressView."
+  s.summary      = "Super Cool Looking Dual Circular Progress View with ability to show info in the middle."
 
   s.description  = <<-DESC
 			This is a subclass of UIView and written to be able to display two circular progress views one inside the other to save space on the screen. It also looks pretty cool. This project uses another library DACircularProgress for the progress wheels.
@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/JJLewis/JLDualCircularProgressView.git", :commit => "38171bc5f88307f4398e9c50408a778fc16a7db2", :tag => "1.0" }
+  s.source       = { :git => "https://github.com/JJLewis/JLDualCircularProgressView.git", :commit => "0ede8d1b34763a6e49c3981070fbbf25454f42cf", :tag => "1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
