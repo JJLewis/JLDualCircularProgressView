@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/JJLewis/JLDualCircularProgressView.git", :commit => "b2b00b29253c4ca70a1faed0c172211c490846a8",:tag => "1.0" }
+  s.source       = { :git => "http://github.com/JJLewis/JLDualCircularProgressView.git", :commit => "38171bc5f88307f4398e9c50408a778fc16a7db2", :tag => "1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

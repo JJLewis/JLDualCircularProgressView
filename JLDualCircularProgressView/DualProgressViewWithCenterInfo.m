@@ -53,13 +53,13 @@
         label1 = [[UILabel alloc] initWithFrame:CGRectMake(0, (size-sizeFactor*2)-27, size, 25)];
         [label1 setTextAlignment:NSTextAlignmentCenter];
         label1.text = @"Sunrise: 6:30";
-        label1.font = [UIFont fontWithName:"HelveticaNeue-Light" size:18];
+        label1.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:18];
         [self addSubview:label1];
         
         label2 = [[UILabel alloc] initWithFrame:CGRectMake(0, (size-sizeFactor*2)-7, size, 25)];
         [label2 setTextAlignment:NSTextAlignmentCenter];
         label2.text = @"Sunset: 7:30";
-        label2.font = [UIFont fontWithName:"HelveticaNeue-Light" size:18];
+        label2.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:18];
         [self addSubview:label2];
     }
     return self;
