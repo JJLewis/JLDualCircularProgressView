@@ -1,6 +1,6 @@
 //
 //  DualProgressViewWithCenterInfo.h
-//  L120
+//  
 //
 //  Created by Lewis, Jordan on 19/02/14.
 //  Copyright (c) 2014 JordanLewis. All rights reserved.

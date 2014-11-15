@@ -1,13 +1,12 @@
 //
 //  DualProgressViewWithCenterInfo.m
-//  L120
+//  
 //
 //  Created by Lewis, Jordan on 19/02/14.
 //  Copyright (c) 2014 JordanLewis. All rights reserved.
 //
 
 #import "DualProgressViewWithCenterInfo.h"
-#import "L120Theme.h"
 
 @implementation DualProgressViewWithCenterInfo
 
@@ -26,8 +25,6 @@
         
         [self setBackgroundColor:[UIColor clearColor]];
         [self setCenter:CGPointMake(location.x, location.y)];
-        
-        L120Theme *theme = [[L120Theme alloc] init];
         
         outerProgressView = [[DACircularProgressView alloc] initWithFrame:CGRectMake(0, 0, size, size)];
         outerProgressView.roundedCorners = YES;
@@ -56,13 +53,13 @@
         label1 = [[UILabel alloc] initWithFrame:CGRectMake(0, (size-sizeFactor*2)-27, size, 25)];
         [label1 setTextAlignment:NSTextAlignmentCenter];
         label1.text = @"Sunrise: 6:30";
-        label1.font = [theme themeThinFontOfSize:18];
+        label1.font = [UIFont fontWithName:"HelveticaNeue-Light" size:18];
         [self addSubview:label1];
         
         label2 = [[UILabel alloc] initWithFrame:CGRectMake(0, (size-sizeFactor*2)-7, size, 25)];
         [label2 setTextAlignment:NSTextAlignmentCenter];
         label2.text = @"Sunset: 7:30";
-        label2.font = [theme themeThinFontOfSize:18];
+        label2.font = [UIFont fontWithName:"HelveticaNeue-Light" size:18];
         [self addSubview:label2];
     }
     return self;
